@@ -1,12 +1,22 @@
 body, html {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   height: 100%;
 }
 
+.carousel-inner{
+  height: 100%;
+}
+
+.carousel-item{
+  height: 100%;
+  margin-top: 90px;
+}
+
 .carousel-item img {
-  height: calc(100vh - 80px); /* Ajusta el 80px al tamaño de margen inferior que desees */
+  height: calc(100vh - 150px); /* Ajusta el 80px al tamaño de margen inferior que desees */
+  /*height: 400px; /* Ajusta el 80px al tamaño de margen inferior que desees */
   object-fit: cover;
 }
 
@@ -21,9 +31,13 @@ body, html {
 }
 
 .carousel-caption {
-  background-color: rgba(139, 69, 19, 0.7); /* Fondo café con transparencia */
-  padding: 10px;
+  /*background-color: rgba(139, 69, 19, 0.7); /* Fondo café con transparencia */
+  background-color: rgba(25,26,29, 0.8);
   border-radius: 5px;
+  padding: 1.5rem;
+  border: 1px solid #fafafa;
+  box-shadow: 0 5px 10px skyblue;
+  margin-bottom: 100px;
 }
 
 /* Clase personalizada para definir el tamaño de la card */
